@@ -1,25 +1,73 @@
+class Math:
+
+	@staticmethod
+	def add5(x):
+		return x+5
+
+	@staticmethod
+	def mult2(x):
+		return x*2
+
+print(Math.mult2(22))
+
+
+
+# class Person:
+# 	number_of_people = 0
+
+# 	def __init__(self, name):
+# 		self.name = name
+# 		Person.add_person()
+
+# 	@classmethod
+# 	def number_of_people_(cls):
+# 		return cls.number_of_people
+
+# 	@classmethod
+# 	def add_person(cls):
+# 		cls.number_of_people += 1
+
+
+# p1 = Person('Joelle')
+# p2 = Person('Ortho')
+# p3 = Person('Remy')
+
+# print(Person.number_of_people_())
 
 
 
 
+# # Upper-level parent class
+# class Pet:
+# 	def __init__(self, name, age):
+# 		self.name = name
+# 		self.age = age
 
+# 	def show(self):
+# 		print(f'I am {self.name} and I am {self.age} years old')
 
+# #Child classes that inherit from Pet class
+# class Cat(Pet):
+# 	def __init__(self, name, age, color):
+# 		super().__init__(name, age)  # inherit other attributes from the super class
+# 		self.color = color
 
+# 	def speak(self):
+# 		print('Meow')
 
+# 	def show(self):
+# 		print(f'I am {self.name} and I am {self.age} years old and I am {self.color}')
 
+# class Dog(Pet):
+# 	def speak(self):
+# 		print('Woof')
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
+# p = Pet('Bill', 19)
+# p.show()
+# c=Cat('Sue', 5, 'green')
+# c.show()
+# d = Dog('Wahren', 2)
 
 
 
